@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, MessageCircle } from "lucide-react";
 
 export const DATA = {
   name: "Chonghan Wang",
@@ -47,6 +47,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/chat", icon: MessageCircle, label: "Chat" },
   ],
   contact: {
     email: "cwang942@usc.edu",
@@ -60,7 +61,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/chonghan-wang-488a61266",
+        url: "https://www.linkedin.com/in/chonghan-wang-488a61266",
         icon: Icons.linkedin,
         navbar: true,
       },
